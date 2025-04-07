@@ -1,23 +1,26 @@
-🏎️ F1 2025 Race Predictor <br />
-by Mythri Shivakumar
+🏎️ F1 2025 Race Predictor  
+by Mythri Shivakumar  
 
-🚀 Overview: <br />
-A Python script that predicts the 2025 Chinese Grand Prix race grid using Australian GP 2025 results and China Sprint Qualifying times. Powered by fastf1 for real F1 data and a Random Forest model for the heavy lifting. Outputs are clean table.
+🚀 Overview  
+A Python-powered tool to predict Formula 1 race outcomes for the 2025 season, starting with the Japanese Grand Prix. Leverages `fastf1` for real-time F1 data and an XGBoost model for robust predictions. Outputs clean, tabular results with plans for live lap-by-lap updates and more features as the season unfolds.
 
-🏁 Features: <br />
-✔ Aus 2025 Blind Prediction – Predicts the grid using 2024 averages, team strength & experience.  <br />
-✔ Aus 2025 Actual Results – Pulls real results from fastf1, compares them (wet race chaos included). <br />
-✔ China 2025 Race Prediction – Blends 20% of Aus results with 80% of Sprint Quali ranks for final predictions. <br />
-✔ Clean Output – Structured tables with tabulate—just the facts, no fluff. <br />
-✔ Scalable – Ready for Practice & Quali data when available. <br />
+🏁 Features  
+✔ **Season-Long Scalability** – Built to predict all 2025 races, adapting to new data as races complete.    
+✔ **Clean Output** – Structured tables via `tabulate` for clear, no-nonsense results.  
+✔ **Future-Proof** – Expanding to include practice, quali, weather, and pit stop data as the season progresses.  
 
-🛠️ Setup: <br />
-1️⃣ Clone the repo <br />
-https://github.com/MythriShivakumar/F1_Race_Prediction.git <br />
-2️⃣ Install dependencies <br />
-pip install fastf1 tabulate pandas numpy scikit-learn <br />
-3️⃣ Run the notebook  <br />
+🛠️ Setup  
+1️⃣ **Clone the repo**  
+   `git clone https://github.com/MythriShivakumar/F1_Race_Prediction.git`  
+2️⃣ **Install dependencies**  
+   `pip install fastf1 tabulate pandas numpy xgboost matplotlib`  
+3️⃣ **Run the notebook**  
+   Open and execute the Jupyter notebook or Python script.  
 
-📌 Notes:
-Requires an active internet connection for fastf1 data retrieval.
-Predictions improve with more race data—stay tuned for updates!
+📌 Notes  
+- Requires an active internet connection for `fastf1` data retrieval.  
+- Predictions refine with each race—more data, better accuracy. Expect evolving features like live plots, tire strategy, and weather impacts.  
+- Currently uses XGBoost; model tweaks and feature additions planned throughout 2025.  
+
+🏆 Goals  
+Predict every 2025 Grand Prix with increasing precision, delivering a dynamic tool for F1 fans and data enthusiasts. Watch this space for updates!
